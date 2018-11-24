@@ -10,10 +10,24 @@ import Cocoa
 
 class LoginViewController: NSViewController {
     
+    // 代码实现增效视图
+    lazy var effectView: NSVisualEffectView = {
+        let effectView = NSVisualEffectView()
+        effectView.wantsLayer = true
+        effectView.material = .light
+        effectView.state = .active
+        effectView.blendingMode = .withinWindow
+        return effectView
+    }()
+    
     override func viewDidAppear() {
         super.viewDidAppear()
         self.view.wantsLayer = true
         self.view.layer?.backgroundColor = NSColor.red.cgColor
+        
+        //
+        effectView.frame = view.bounds
+        view.addSubview(effectView, positioned: .below, relativeTo: view.subviews[0])
     }
 
     override func viewDidLoad() {
