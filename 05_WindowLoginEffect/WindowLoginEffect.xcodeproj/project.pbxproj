@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD08C8CE21A9ADA4003CA5E2 /* WindowBorderless.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD08C8CD21A9ADA4003CA5E2 /* WindowBorderless.swift */; };
+		CDD14CA121A986F800810D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD14CA021A986F800810D22 /* AppDelegate.swift */; };
+		CDD14CA521A986F900810D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD14CA421A986F900810D22 /* Assets.xcassets */; };
+		CDD14CA821A986F900810D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDD14CA621A986F900810D22 /* Main.storyboard */; };
+		CDD14CB421A986F900810D22 /* WindowLoginEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD14CB321A986F900810D22 /* WindowLoginEffectTests.swift */; };
+		CDD14CBF21A986F900810D22 /* WindowLoginEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD14CBE21A986F900810D22 /* WindowLoginEffectUITests.swift */; };
+		CDD14CCE21A9A21A00810D22 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD14CCD21A9A21A00810D22 /* MainWindowController.swift */; };
+		CDD14CD121A9A2E200810D22 /* LoginWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD14CCF21A9A2E200810D22 /* LoginWindowController.swift */; };
+		CDD14CD421A9A3EA00810D22 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD14CD321A9A3EA00810D22 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDD14CB021A986F900810D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD14C9521A986F800810D22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD14C9C21A986F800810D22;
+			remoteInfo = WindowLoginEffect;
+		};
+		CDD14CBB21A986F900810D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD14C9521A986F800810D22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD14C9C21A986F800810D22;
+			remoteInfo = WindowLoginEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD08C8CD21A9ADA4003CA5E2 /* WindowBorderless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowBorderless.swift; sourceTree = "<group>"; };
+		CDD14C9D21A986F800810D22 /* WindowLoginEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowLoginEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD14CA021A986F800810D22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDD14CA421A986F900810D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDD14CA721A986F900810D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDD14CA921A986F900810D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD14CAA21A986F900810D22 /* WindowLoginEffect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WindowLoginEffect.entitlements; sourceTree = "<group>"; };
+		CDD14CAF21A986F900810D22 /* WindowLoginEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowLoginEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD14CB321A986F900810D22 /* WindowLoginEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowLoginEffectTests.swift; sourceTree = "<group>"; };
+		CDD14CB521A986F900810D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD14CBA21A986F900810D22 /* WindowLoginEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowLoginEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD14CBE21A986F900810D22 /* WindowLoginEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowLoginEffectUITests.swift; sourceTree = "<group>"; };
+		CDD14CC021A986F900810D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD14CCD21A9A21A00810D22 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		CDD14CCF21A9A2E200810D22 /* LoginWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWindowController.swift; sourceTree = "<group>"; };
+		CDD14CD321A9A3EA00810D22 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDD14C9A21A986F800810D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD14CAC21A986F900810D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD14CB721A986F900810D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDD14C9421A986F800810D22 = {
+			isa = PBXGroup;
+			children = (
+				CDD14C9F21A986F800810D22 /* WindowLoginEffect */,
+				CDD14CB221A986F900810D22 /* WindowLoginEffectTests */,
+				CDD14CBD21A986F900810D22 /* WindowLoginEffectUITests */,
+				CDD14C9E21A986F800810D22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDD14C9E21A986F800810D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD14C9D21A986F800810D22 /* WindowLoginEffect.app */,
+				CDD14CAF21A986F900810D22 /* WindowLoginEffectTests.xctest */,
+				CDD14CBA21A986F900810D22 /* WindowLoginEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDD14C9F21A986F800810D22 /* WindowLoginEffect */ = {
+			isa = PBXGroup;
+			children = (
+				CDD14CCC21A9A16E00810D22 /* Controllers */,
+				CDD14CA021A986F800810D22 /* AppDelegate.swift */,
+				CDD14CA421A986F900810D22 /* Assets.xcassets */,
+				CDD14CA621A986F900810D22 /* Main.storyboard */,
+				CDD14CA921A986F900810D22 /* Info.plist */,
+				CDD14CAA21A986F900810D22 /* WindowLoginEffect.entitlements */,
+				CD08C8CD21A9ADA4003CA5E2 /* WindowBorderless.swift */,
+			);
+			path = WindowLoginEffect;
+			sourceTree = "<group>";
+		};
+		CDD14CB221A986F900810D22 /* WindowLoginEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDD14CB321A986F900810D22 /* WindowLoginEffectTests.swift */,
+				CDD14CB521A986F900810D22 /* Info.plist */,
+			);
+			path = WindowLoginEffectTests;
+			sourceTree = "<group>";
+		};
+		CDD14CBD21A986F900810D22 /* WindowLoginEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDD14CBE21A986F900810D22 /* WindowLoginEffectUITests.swift */,
+				CDD14CC021A986F900810D22 /* Info.plist */,
+			);
+			path = WindowLoginEffectUITests;
+			sourceTree = "<group>";
+		};
+		CDD14CCC21A9A16E00810D22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDD14CCD21A9A21A00810D22 /* MainWindowController.swift */,
+				CDD14CCF21A9A2E200810D22 /* LoginWindowController.swift */,
+				CDD14CD321A9A3EA00810D22 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDD14C9C21A986F800810D22 /* WindowLoginEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD14CC321A986F900810D22 /* Build configuration list for PBXNativeTarget "WindowLoginEffect" */;
+			buildPhases = (
+				CDD14C9921A986F800810D22 /* Sources */,
+				CDD14C9A21A986F800810D22 /* Frameworks */,
+				CDD14C9B21A986F800810D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindowLoginEffect;
+			productName = WindowLoginEffect;
+			productReference = CDD14C9D21A986F800810D22 /* WindowLoginEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDD14CAE21A986F900810D22 /* WindowLoginEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD14CC621A986F900810D22 /* Build configuration list for PBXNativeTarget "WindowLoginEffectTests" */;
+			buildPhases = (
+				CDD14CAB21A986F900810D22 /* Sources */,
+				CDD14CAC21A986F900810D22 /* Frameworks */,
+				CDD14CAD21A986F900810D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDD14CB121A986F900810D22 /* PBXTargetDependency */,
+			);
+			name = WindowLoginEffectTests;
+			productName = WindowLoginEffectTests;
+			productReference = CDD14CAF21A986F900810D22 /* WindowLoginEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDD14CB921A986F900810D22 /* WindowLoginEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD14CC921A986F900810D22 /* Build configuration list for PBXNativeTarget "WindowLoginEffectUITests" */;
+			buildPhases = (
+				CDD14CB621A986F900810D22 /* Sources */,
+				CDD14CB721A986F900810D22 /* Frameworks */,
+				CDD14CB821A986F900810D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDD14CBC21A986F900810D22 /* PBXTargetDependency */,
+			);
+			name = WindowLoginEffectUITests;
+			productName = WindowLoginEffectUITests;
+			productReference = CDD14CBA21A986F900810D22 /* WindowLoginEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD14C9521A986F800810D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = DeveloperLY;
+				TargetAttributes = {
+					CDD14C9C21A986F800810D22 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CDD14CAE21A986F900810D22 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDD14C9C21A986F800810D22;
+					};
+					CDD14CB921A986F900810D22 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDD14C9C21A986F800810D22;
+					};
+				};
+			};
+			buildConfigurationList = CDD14C9821A986F800810D22 /* Build configuration list for PBXProject "WindowLoginEffect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDD14C9421A986F800810D22;
+			productRefGroup = CDD14C9E21A986F800810D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDD14C9C21A986F800810D22 /* WindowLoginEffect */,
+				CDD14CAE21A986F900810D22 /* WindowLoginEffectTests */,
+				CDD14CB921A986F900810D22 /* WindowLoginEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDD14C9B21A986F800810D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD14CA521A986F900810D22 /* Assets.xcassets in Resources */,
+				CDD14CA821A986F900810D22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD14CAD21A986F900810D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD14CB821A986F900810D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDD14C9921A986F800810D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD08C8CE21A9ADA4003CA5E2 /* WindowBorderless.swift in Sources */,
+				CDD14CD421A9A3EA00810D22 /* LoginViewController.swift in Sources */,
+				CDD14CCE21A9A21A00810D22 /* MainWindowController.swift in Sources */,
+				CDD14CD121A9A2E200810D22 /* LoginWindowController.swift in Sources */,
+				CDD14CA121A986F800810D22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD14CAB21A986F900810D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD14CB421A986F900810D22 /* WindowLoginEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD14CB621A986F900810D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD14CBF21A986F900810D22 /* WindowLoginEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDD14CB121A986F900810D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDD14C9C21A986F800810D22 /* WindowLoginEffect */;
+			targetProxy = CDD14CB021A986F900810D22 /* PBXContainerItemProxy */;
+		};
+		CDD14CBC21A986F900810D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDD14C9C21A986F800810D22 /* WindowLoginEffect */;
+			targetProxy = CDD14CBB21A986F900810D22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDD14CA621A986F900810D22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDD14CA721A986F900810D22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDD14CC121A986F900810D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDD14CC221A986F900810D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CDD14CC421A986F900810D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WindowLoginEffect/WindowLoginEffect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y97FTNGTB8;
+				INFOPLIST_FILE = WindowLoginEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.WindowLoginEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		CDD14CC521A986F900810D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WindowLoginEffect/WindowLoginEffect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y97FTNGTB8;
+				INFOPLIST_FILE = WindowLoginEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.WindowLoginEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		CDD14CC721A986F900810D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y97FTNGTB8;
+				INFOPLIST_FILE = WindowLoginEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.WindowLoginEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindowLoginEffect.app/Contents/MacOS/WindowLoginEffect";
+			};
+			name = Debug;
+		};
+		CDD14CC821A986F900810D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y97FTNGTB8;
+				INFOPLIST_FILE = WindowLoginEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.WindowLoginEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindowLoginEffect.app/Contents/MacOS/WindowLoginEffect";
+			};
+			name = Release;
+		};
+		CDD14CCA21A986F900810D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y97FTNGTB8;
+				INFOPLIST_FILE = WindowLoginEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.WindowLoginEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = WindowLoginEffect;
+			};
+			name = Debug;
+		};
+		CDD14CCB21A986F900810D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y97FTNGTB8;
+				INFOPLIST_FILE = WindowLoginEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.WindowLoginEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = WindowLoginEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDD14C9821A986F800810D22 /* Build configuration list for PBXProject "WindowLoginEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD14CC121A986F900810D22 /* Debug */,
+				CDD14CC221A986F900810D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD14CC321A986F900810D22 /* Build configuration list for PBXNativeTarget "WindowLoginEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD14CC421A986F900810D22 /* Debug */,
+				CDD14CC521A986F900810D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD14CC621A986F900810D22 /* Build configuration list for PBXNativeTarget "WindowLoginEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD14CC721A986F900810D22 /* Debug */,
+				CDD14CC821A986F900810D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD14CC921A986F900810D22 /* Build configuration list for PBXNativeTarget "WindowLoginEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD14CCA21A986F900810D22 /* Debug */,
+				CDD14CCB21A986F900810D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDD14C9521A986F800810D22 /* Project object */;
+}
